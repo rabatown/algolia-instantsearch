@@ -28,7 +28,7 @@ search.addWidget(
 
 search.addWidget(
   instantsearch.widgets.refinementList({
-    container: document.querySelector("#products"),
+    container: document.querySelector("#genre"),
     attributeName: "genre"
   })
 );
